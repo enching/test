@@ -19,3 +19,4 @@ define BanksCapPhys {select PhysCap from BanksLimits where month=month }
 ! CVP dedicated capacity
 define BanksMaxAllowCVP {select CVPDedCap from BanksLimits where month=month}
 define BanksMaxCVPdv {alias BanksMaxAllowCVP kind 'flow' units 'CFS'}
+!test
